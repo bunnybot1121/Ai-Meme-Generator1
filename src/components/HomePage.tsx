@@ -35,8 +35,8 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
       <div className="max-w-6xl mx-auto px-4 py-16 space-y-20">
         <div className="text-center space-y-8">
           <div className="flex justify-center mb-6">
-            <div className="w-32 h-32 bg-white rounded-3xl flex items-center justify-center animate-float shadow-2xl shadow-orange-500/50">
-              <img src="/WhatsApp Image 2025-10-04 at 20.48.00.jpeg" alt="MemeGen" className="w-full h-full rounded-3xl object-cover" />
+            <div className="w-32 h-32 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-3xl flex items-center justify-center animate-float shadow-2xl shadow-orange-500/50 p-1">
+              <img src="/WhatsApp Image 2025-10-04 at 21.25.20.jpeg" alt="MemeGen" className="w-full h-full rounded-3xl object-cover" />
             </div>
           </div>
 

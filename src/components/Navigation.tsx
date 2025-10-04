@@ -18,8 +18,8 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
     <>
       <nav className="hidden md:flex items-center justify-between px-8 py-4 bg-gradient-to-r from-amber-950/90 via-amber-900/80 to-amber-950/90 backdrop-blur-lg border-b border-orange-900/50 sticky top-0 z-50">
         <div className="flex items-center space-x-3">
-          <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/30">
-            <img src="/WhatsApp Image 2025-10-04 at 20.48.00.jpeg" alt="MemeGen" className="w-full h-full rounded-2xl object-cover" />
+          <div className="w-12 h-12 bg-yellow-400 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/30">
+            <img src="/WhatsApp Image 2025-10-04 at 21.25.20.jpeg" alt="MemeGen" className="w-full h-full rounded-2xl object-cover" />
           </div>
           <h1 className="text-2xl font-bold tracking-wider text-orange-500">MEMEGEN</h1>
         </div>
