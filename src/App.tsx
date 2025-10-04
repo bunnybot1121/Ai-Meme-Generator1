@@ -49,10 +49,10 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white relative overflow-hidden">
-      <div className="fixed inset-0 z-0 opacity-30">
+    <div className="min-h-screen bg-black text-white relative overflow-hidden">
+      <div className="fixed inset-0 z-0 opacity-20">
         <Threads
-          color={[0.486, 0.227, 0.929]}
+          color={[0.95, 0.45, 0.1]}
           amplitude={1.2}
           distance={0.3}
           enableMouseInteraction={true}

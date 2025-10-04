@@ -11,10 +11,10 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     const baseStyles = 'font-semibold rounded-full transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed';
 
     const variants = {
-      primary: 'bg-purple-600 hover:bg-purple-500 text-white shadow-lg shadow-purple-500/30 hover:shadow-purple-500/50',
-      secondary: 'bg-green-500 hover:bg-green-400 text-white shadow-lg shadow-green-500/30 hover:shadow-green-500/50',
+      primary: 'bg-orange-600 hover:bg-orange-500 text-white shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50',
+      secondary: 'bg-orange-500 hover:bg-orange-400 text-white shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50',
       accent: 'btn-gradient text-white shadow-lg',
-      outline: 'border-2 border-purple-600 text-purple-400 hover:bg-purple-600/10'
+      outline: 'border-2 border-orange-600 text-orange-400 hover:bg-orange-600/10'
     };
 
     const sizes = {

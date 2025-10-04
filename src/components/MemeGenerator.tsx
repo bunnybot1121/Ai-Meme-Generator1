@@ -207,7 +207,7 @@ const MemeGenerator = ({ onMemeGenerated }: MemeGeneratorProps) => {
         <div className="space-y-6">
           <Card>
             <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-              <Sparkles className="w-5 h-5 text-purple-500" />
+              <Sparkles className="w-5 h-5 text-orange-500" />
               Choose Template
             </h3>
 
@@ -232,7 +232,7 @@ const MemeGenerator = ({ onMemeGenerated }: MemeGeneratorProps) => {
                   }}
                   className={`relative rounded-lg overflow-hidden transition-all duration-300 ${
                     selectedTemplate.id === template.id
-                      ? 'ring-4 ring-purple-500 scale-105'
+                      ? 'ring-4 ring-orange-500 scale-105'
                       : 'hover:scale-105 opacity-70 hover:opacity-100'
                   }`}
                 >
@@ -280,7 +280,7 @@ const MemeGenerator = ({ onMemeGenerated }: MemeGeneratorProps) => {
                 <input
                   type="file"
                   accept="image/*"
-                  className="mt-2 block w-full text-sm text-gray-300 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-purple-600 file:text-white hover:file:bg-purple-500"
+                  className="mt-2 block w-full text-sm text-gray-300 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-orange-600 file:text-white hover:file:bg-orange-500"
                   onChange={(e) => {
                     const f = e.target.files?.[0] ?? null;
                     setGeneratedMeme('');
@@ -444,7 +444,7 @@ const MemeGenerator = ({ onMemeGenerated }: MemeGeneratorProps) => {
                     }}
                     onMouseDown={(e) => setDragging({ target: 'top', startX: e.clientX, startY: e.clientY })}
                   >
-                    <span className="px-2 py-1 rounded bg-purple-600/70 text-xs">Top</span>
+                    <span className="px-2 py-1 rounded bg-orange-600/70 text-xs">Top</span>
                   </div>
                   <div
                     className="absolute"
@@ -455,7 +455,7 @@ const MemeGenerator = ({ onMemeGenerated }: MemeGeneratorProps) => {
                     }}
                     onMouseDown={(e) => setDragging({ target: 'bottom', startX: e.clientX, startY: e.clientY })}
                   >
-                    <span className="px-2 py-1 rounded bg-purple-600/70 text-xs">Bottom</span>
+                    <span className="px-2 py-1 rounded bg-orange-600/70 text-xs">Bottom</span>
                   </div>
                 </>
               )}
