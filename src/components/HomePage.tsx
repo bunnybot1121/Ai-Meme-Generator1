@@ -41,11 +41,9 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold leading-tight tracking-tight">
-            <span className="text-white">Ready to</span>
+            <span className="text-white">Create</span>
             <br />
             <span className="text-gradient text-6xl md:text-8xl">Meme</span>
-            <br />
-            <span className="text-white">Your Dreams?</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto">
@@ -59,7 +57,6 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
               size="lg"
               className="w-full sm:w-auto bg-orange-600 hover:bg-orange-500 text-white px-8 shadow-lg shadow-orange-500/30"
             >
-              <Wand2 className="w-5 h-5 mr-2" />
               LET'S GO
             </Button>
           </div>
